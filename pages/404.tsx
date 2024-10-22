@@ -1,8 +1,12 @@
-'use client';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
-import { useRouter } from 'next/navigation';
+
 
 export default function NotFound() {
   const router = useRouter();
-  router.push('/help/docs')
+
+  useEffect(() => {
+    router.replace('/');
+  }, []);
 }

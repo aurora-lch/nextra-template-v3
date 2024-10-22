@@ -10,12 +10,6 @@ export default {
   footer: {
     component: null
   },
-  i18n: [
-    {
-      locale: 'zh-CN',
-      text: '中文'
-    }
-  ],
   toc: {
     backToTop: true,
     title: '导航'
