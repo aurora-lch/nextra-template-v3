@@ -1,12 +1,13 @@
 import type { DocsThemeConfig } from 'nextra-theme-docs';
 
-import { useRouter } from 'next/router';
+import { useRouter } from 'nextra/hooks';
 import React from 'react';
 
-import UpdateTime from './components/UpdateTime';
+import UpdateTime from '~/UpdateTime';
+import { Logo } from '~/icon';
 
 export default {
-  logo: <img src='/help/docs/logo.svg' alt='logo' />,
+  logo: <Logo />,
   footer: {
     component: null
   },

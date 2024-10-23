@@ -8,5 +8,5 @@ const withNextra = nextra({
 export default withNextra({
   output: 'standalone',
   reactStrictMode: true,
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH
 });

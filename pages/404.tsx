@@ -1,7 +1,5 @@
-import { useRouter } from 'next/router';
+import { useRouter } from 'nextra/hooks';
 import { useEffect } from 'react';
-
-
 
 export default function NotFound() {
   const router = useRouter();
